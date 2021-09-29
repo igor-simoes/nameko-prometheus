@@ -49,5 +49,5 @@ setup(
         'dataclasses>=0.8,<0.9; python_version<"3.7.0"',
         'singledispatchmethod>=1.0,<2.0; python_version<"3.8.0"',
     ],
-    #setup_requires=["pytest-runner"],
+    setup_requires=["pytest-runner"],
 )
